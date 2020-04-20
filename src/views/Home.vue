@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    
+    <div class="banner">
+		
+	</div>
   </div>
 </template>
 
@@ -15,3 +17,9 @@ export default {
   }
 }
 </script>
+<style lang="less" scoped>
+	.banner{
+		height: 500px;
+		background: #ccc;
+	}
+</style>

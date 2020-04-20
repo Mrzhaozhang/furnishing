@@ -5,6 +5,8 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+require('../static/style/reset.css')
+
 new Vue({
   router,
   store,
