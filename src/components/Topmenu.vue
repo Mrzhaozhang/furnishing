@@ -38,7 +38,7 @@ export default {
 		display: inline-block;
 		width: 60px;
 		font-size: 14px;
-		transform: all;
+		transition: all .2s ease-in;
 		&.active,&:hover{
 			color: rgba(0, 0, 0, 1);
 			font-size: 15px;
